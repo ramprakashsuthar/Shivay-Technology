@@ -1,0 +1,161 @@
+@media (max-width: 768px) {
+    header {
+        position: sticky;
+        background-color: #101214;
+
+    }
+
+    header,
+    header .sticky {
+        padding: 10px 20px;
+    }
+
+    header .navigation {
+        display: none;
+    }
+
+    header .navigation.active {
+        width: 100%;
+        height: calc(100% - 68px);
+        position: fixed;
+        top: 100px;
+        left: 0;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+        /* background: #fff; */
+        padding-left: 0px;
+        background-color: #101214;
+    }
+
+    .navigation {
+        overflow-y: scroll;
+    }
+
+    header .navigation li {
+        margin-left: 0;
+        /* text-align: center; */
+    }
+
+    header .navigation li img {
+        width: 40px;
+    }
+
+    header .navigation li a {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 31.2px;
+        padding: 18px 0;
+        border-bottom: 1px solid #191b1e;
+    }
+
+    .estimate-btn {
+        margin: 10px 0;
+    }
+
+    .estimate-btn a {
+        padding: 20px 80px;
+        font-size: 20.8px;
+        font-weight: 500;
+    }
+
+    .menutoggle {
+        display: block;
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: url(https://i.postimg.cc/qq7WKZ1m/menu.png);
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+
+    .menutoggle.active {
+        background: url(https://i.postimg.cc/yNcK65Gc/close.png);
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .sticky .menutoggle {
+        /* filter: invert(1); */
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .sticky {
+        padding: 10px 30px;
+    }
+
+    .headerContainer {
+        padding: 20px 0;
+    }
+
+    #displayBtn {
+        display: none;
+    }
+
+    .bannerContent h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .servcHeading h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .servcDescription p {
+        line-height: 24px;
+    }
+
+    .servcBtn a {
+        padding: 12px 40px;
+    }
+
+    .enqContent h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .enqContent p {
+        font-size: 14px;
+    }
+
+    .serviceSection {
+        position: static;
+        width: 100%;
+        top: 0;
+    }
+
+    .serviceHeading {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .tabWrapper button {
+        padding: 15px 10px;
+        font-size: 16px;
+    }
+
+    .hiringProCardWrap {
+        flex-direction: column;
+    }
+.hiringprocessRightline{
+    width: 100px;
+}
+    .hiringprocessLeftline hr,.hiringprocessRightline hr {
+        transform: rotate(90deg);
+    }
+
+    .hiringprocessLeftline::after {
+        left: 54.11%;
+        transform: rotate(0deg);
+    }
+    
+}
